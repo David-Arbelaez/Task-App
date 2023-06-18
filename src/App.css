@@ -1,0 +1,42 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.App{
+  background: rgb(255,255,255);
+  background: linear-gradient(180deg, #e7e9ed 0%, #b6b9c3 100%);
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.task-app{
+  border-radius: 22px 22px 22px 22px;
+  text-align: center;
+  box-shadow: 2px 2px 50px rgb(192, 192, 192);
+}
+
+.title{
+  font-size: 35px;
+  font-weight: 700;
+  display: table-cell;
+  vertical-align: middle;
+  background-color: #fefefe;
+  height: 100px;
+  width: 500px;
+  border-radius: 22px 22px 0px 0px;
+}
+
+.task-list{
+  border-top: solid 1px lightgray;
+  min-height: 500px;
+  width: 500px;
+  background-color: #f9f9f9;
+  border-radius: 0px 0px 22px 22px ;
+}
+
+
